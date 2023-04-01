@@ -5,12 +5,30 @@
     <title>Masood Abdolian</title>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="/styles/index.css" />
+    <script type="module">
+      import "https://cdn.skypack.dev/@htmlplus/core/avatar.js";
+      import "https://cdn.skypack.dev/@htmlplus/core/center.js";
+    </script>
   </head>
   <body>
-    <img class="avatar" src="/assets/avatar.jpg" />
-    <h1 class="fullname">Masood Abdolian</h1>
-    <h2 class="job-title">Senior Frontend Developer</h2>
-    <div class="biography">
+    <plus-center>
+      <plus-avatar shape="circle" size="10rem">
+        <img src="/assets/avatar.jpg" />
+      </plus-avatar>
+    </plus-center>
+
+    <br />
+
+    <plus-center>
+      <h1>Masood Abdolian</h1>
+    </plus-center>
+
+    <plus-center>
+      <h4>Senior Frontend Developer</h4>
+    </plus-center>
+
+    <h3>About</h3>
+    <div class="about">
       <p>
         A creative software developer with over 9 years of professional
         experience in the world of the web. An extrovert person who is eager to
@@ -35,11 +53,44 @@
         create incredible things that can help people and industries.
       </p>
     </div>
-    <div class="information">
-      <div class=""></div>
-    </div>
 
-    <div class="title">Experiences</div>
+    <h3>Information</h3>
+    <ul class="information">
+      <li>
+        <div class="title">Gender</div>
+        <div class="description">Male</div>
+      </li>
+      <li>
+        <div class="title">Date Of Birth</div>
+        <div class="description">09-06-1988</div>
+      </li>
+      <li>
+        <div class="title">Address</div>
+        <div class="description">Isfahan, Isfahan Province, Iran</div>
+      </li>
+      <li>
+        <div class="title">Phone</div>
+        <div class="description">+989137857595</div>
+      </li>
+      <li>
+        <div class="title">Email</div>
+        <div class="description">m.abdolian@gmail.com</div>
+      </li>
+      <li>
+        <div class="title">Nationality</div>
+        <div class="description">Iranian</div>
+      </li>
+      <li>
+        <div class="title">Military Status</div>
+        <div class="description">Completed</div>
+      </li>
+      <li>
+        <div class="title">Marital Status</div>
+        <div class="description">Married</div>
+      </li>
+    </ul>
+
+    <h3>Experiences</h3>
     <ul class="experiences">
       <li>
         <div class="title">Senior Frontend Developer</div>
@@ -358,7 +409,7 @@
       </li>
     </ul>
 
-    <div class="title">Educations</div>
+    <h3>Educations</h3>
     <ul class="educations">
       <li>
         <div class="school">Isfahan University of Technology</div>
@@ -386,32 +437,7 @@
       </li>
     </ul>
 
-    <!-- <div class="title">Licenses & Certifications</div>
-    <ul class="educations"></ul> -->
-
-    <div class="title">Websites & Social Links</div>
-    <ul class="links">
-      <li>
-        <div class="title">Website</div>
-        <div class="description">https://abdolian.github.io</div>
-      </li>
-      <li>
-        <div class="title">Linkedin</div>
-        <div class="description">
-          https://www.linkedin.com/in/masood-abdolian
-        </div>
-      </li>
-      <li>
-        <div class="title">Github</div>
-        <div class="description">https://github.com/abdolian</div>
-      </li>
-      <li>
-        <div class="title">htmlplus.io</div>
-        <div class="description">https://github.com/htmlplus</div>
-      </li>
-    </ul>
-
-    <div class="title">Skills</div>
+    <h3>Skills</h3>
     <ul class="skills">
       <li>HTML5</li>
       <li>CSS3</li>
@@ -482,7 +508,7 @@
       <li>AVR Microcontrollers</li>
     </ul>
 
-    <div class="title">Languages</div>
+    <h3>Languages</h3>
     <ul class="languages">
       <li>
         <div class="title">Persian</div>
@@ -494,7 +520,7 @@
       </li>
     </ul>
 
-    <div class="title">Hobbies</div>
+    <h3>Hobbies</h3>
     <ul class="hobbies">
       <li>Learning Language</li>
       <li>Listening Music</li>
@@ -502,7 +528,44 @@
       <li>Traveling</li>
     </ul>
 
-    <!-- <div class="title">Salary Preferences</div>
+    <!-- <h3>Licenses & Certifications</h3>
     <ul class="educations"></ul> -->
+
+    <!-- <h3>Salary Preferences</h3>
+    <ul class="educations"></ul> -->
+
+    <h3>Websites & Social Links</h3>
+    <ul class="links">
+      <li>
+        <div class="title">Website</div>
+        <div class="description">
+          <a href="https://abdolian.github.io"> https://abdolian.github.io </a>
+        </div>
+      </li>
+      <li>
+        <div class="title">Linkedin</div>
+        <div class="description">
+          <a href="https://www.linkedin.com/in/masood-abdolian">
+            https://www.linkedin.com/in/masood-abdolian
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="title">Github</div>
+        <div class="description">
+          <a href="https://github.com/abdolian">
+            https://github.com/abdolian
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="title">htmlplus.io</div>
+        <div class="description">
+          <a href="https://github.com/htmlplus">
+            https://github.com/htmlplus
+          </a>
+        </div>
+      </li>
+    </ul>
   </body>
 </html>

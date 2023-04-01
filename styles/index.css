@@ -1,0 +1,101 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 4rem 6rem;
+    font-family: "Roboto", "Noto Sans TC", "Noto Sans SC", "Noto Sans HK", "Noto Sans JP", "Noto Sans", "PingFang TC", "Microsoft JhengHei", "PMingLiU", sans-serif;
+
+}
+
+ul {
+    /* list-style: none; */
+    /* margin: 0; */
+    margin-top: 1rem;
+}
+
+li {
+    /* margin-bottom: 1rem; */
+}
+
+p {
+    text-align: justify;
+}
+
+p,
+li {
+    color: #555555;
+    font-size: 16.7px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5;
+}
+
+h1 {
+    border: none;
+    margin: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.07);
+    padding-bottom: calc(0.40625rem - 1px);
+}
+
+h4 {
+    border: none;
+    margin: 0;
+    color: #647b71;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.information .title {
+    text-transform: uppercase;
+}
+
+.experiences>li {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.experiences>li .title {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.experiences>li .company-name {
+    flex-basis: auto;
+    max-width: none;
+}
+
+.experiences>li .employment-type {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+.experiences>li .start-date {}
+
+.experiences>li .end-date {}
+
+.experiences>li .duration {}
+
+.experiences>li .location {}
+
+.experiences>li .location-type {}
+
+.experiences>li .description {}
+
+.skills {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
